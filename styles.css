@@ -6,7 +6,7 @@ body{
 }
 
 .container{
-    width:calc(25% - 160px);
+    width:calc((100%/4) - 160px);
     padding-top: 60px;
     padding-bottom: 100px;
     padding-right: 60px;
@@ -33,4 +33,22 @@ body{
     top:40px;
     right:40px;
     filter: blur(5px);
+}
+
+@media only screen and (max-width: 1200px) {
+    .container{
+        width:calc((100%/3) - 160px);
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .container{
+        width:calc((100%/2) - 160px);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        width:calc(100% - 160px);
+    }
 }
