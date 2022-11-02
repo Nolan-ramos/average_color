@@ -6,19 +6,20 @@ body{
 }
 
 .container{
+    width:calc(25% - 160px);
     padding-top: 60px;
     padding-bottom: 100px;
     padding-right: 60px;
     padding-left: 100px;
 }
-
 .img_1_2{
     position: relative;
+    width: 100%;
 }
 
 .img_1_2 .img_1,
 .img_1_2 .img_2{
-    width: 200px;
+    width: 100%;
 }
 
 .img_1_2 .img_1{
