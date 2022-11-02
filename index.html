@@ -251,7 +251,7 @@
     for(let i = 0; i < background.length; i++){
         image[i].onload = function(){
             const {R,G,B} = getColor(image[i], 8)
-            background[i].style.background = `radial-gradient(rgb(${R},${G},${B}), #fff)`
+            background[i].style.background = `radial-gradient(rgb(${R},${G},${B}), #333)`
         }
     }
     </script>
