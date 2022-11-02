@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    padding-top: 60px;
+    padding-bottom: 100px;
+    padding-right: 60px;
+    padding-left: 100px;
+}
+
+.img_1_2{
+    position: relative;
+}
+
+.img_1_2 .img_1,
+.img_1_2 .img_2{
+    width: 200px;
+}
+
+.img_1_2 .img_1{
+    position: relative;
+    z-index: 1;
+}
+
+.img_1_2 .img_2{
+    position: absolute;
+    z-index: 0;
+    top:40px;
+    right:40px;
+    filter: blur(5px);
+}
